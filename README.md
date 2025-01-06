@@ -7,13 +7,11 @@ This project serves as a comprehensive guide to automated testing methodologies,
 ## API Testing: 
   Interact with  API using Postman, executing requests (GET, POST, PUT, DELETE) and verifying responses against expected outcomes.
 ### Chapter 1: NUnit (C#) Data-Driven Unit Testing
-  Overview:
   - Environment Setup: Create a Windows Forms project in Visual Studio 2019, design the interface, and implement the necessary classes.
   - Unit Testing: Develop test cases to validate functions calculating the circumference and area of a circle.
   - Data-Driven Testing: Utilize input data stored in a .csv file to automate tests with multiple data sets.
   - Results: Display outcomes of test cases for various input scenarios.
 ### Chapter 2: WebDriver (C#) - Testing the Alphabooks Bookstore Website
-  Overview:
   - User Registration Testing:
       Successful registrations and failure cases (e.g., missing information, invalid email formats, incorrect phone numbers).
   - User Login Testing:
@@ -24,7 +22,6 @@ This project serves as a comprehensive guide to automated testing methodologies,
       Successful changes and error cases such as incorrect current passwords, mismatched new passwords, and insufficient password length.
   - Each feature includes meticulously designed test cases and execution results.
 ### Chapter 3: API Testing with Postman
-Overview:
   - Json Server Setup: Configure the environment to create a mock API from the 52_Phu_57_Qui.json file.
   - API Requests Execution: Perform operations like GET, POST, PUT, DELETE on the mock server.
   - Automated Testing: Write test scripts to validate both successful and failing API calls.
